@@ -1,0 +1,28 @@
+{
+  "name": "ms-command-project",
+  "version": "0.0.1",
+  "description": "miaoshou command project",
+  "main": "index.js",
+  "dependencies": {
+    "iconv-lite": "^0.4.12",
+    "ftp": "^0.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lys623/ms-command-project.git"
+  },
+  "keywords": [
+    "ms",
+    "miaoshou"
+  ],
+  "author": "61",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lys623/ms-command-project/issues"
+  },
+  "homepage": "https://github.com/lys623/ms-command-project#readme"
+}
