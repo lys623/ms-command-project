@@ -19,9 +19,9 @@ module.exports= {
         var name = process.argv[2];
         var iSProd=process.argv.indexOf('prod')>-1;
         if(iSProd){
-            cmd='rm -rf ./build&&fis3 release prod -d ./build'
+            cmd='rm -rf ./build&&ms release prod -d ./build'
         }else{
-            cmd='rm -rf ./build&&fis3 release udev -d ./build'
+            cmd='rm -rf ./build&&ms release -d ./build'
         }
         var exec = require('child_process').exec;
         var child = exec(cmd, function(err, stdout, stderr) {
